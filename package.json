@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-drupal",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Théodore Biadala <mail@theodoreb.net>",
   "description": "ESLint rules for enforcing Drupal coding standards.",
   "main": "index.js",
