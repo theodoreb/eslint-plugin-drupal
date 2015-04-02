@@ -23,7 +23,9 @@ eslintTester.addRuleTest("lib/rules/jquery-var-name", {
     valid: [
         "var $element = $('#element');",
         "var $element = $('#element').find('.test').once('eslint');",
-        "var $element = $('#element').find('.test').once('eslint').attr('href', '//');"
+        "var $element = $('#element').find('.test').once('eslint').attr('href', '//');",
+        "var obj = {$element: $('#element').find('.test')};",
+        "var obj = {\"$element\": $('#element').find('.test')};"
     ],
 
     // Examples of code that should trigger the rule
