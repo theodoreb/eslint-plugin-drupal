@@ -6,7 +6,8 @@ To follow [Drupal JavaScript coding standards](https://www.drupal.org/node/17216
 
 ## Rule Details
 
-Make sure everything used is declared properly.
+Make sure everything used is declared properly. This will facilitate 
+identification of missing dependencies in Drupal libraries. 
 
 The following patterns are considered warnings:
 
