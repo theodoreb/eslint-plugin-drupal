@@ -1,4 +1,4 @@
-# eslint-plugin-drupal
+# Drupal ESLint rules
 
 ESLint rules for enforcing Drupal coding standards
 
@@ -14,7 +14,8 @@ And add the plugin to the configuration file:
 {
   "plugins": ["drupal"],
   "rules": {
-    "drupal/jquery-var-name": 2
+    "drupal/jquery-var-name": 2,
+    "drupal/check-closure-globals": 2
   }
 }
 ```
@@ -23,6 +24,7 @@ And add the plugin to the configuration file:
 # Rules
 
 - [jquery-var-name](docs/rules/jquery-var-name.md): Ensure jquery variables are prefixed with `$`.
+- [check-closure-globals](docs/rules/check-closure-globals.md): Ensure all global variable used are declared in the file-closure.
 
 # Ressources
 
