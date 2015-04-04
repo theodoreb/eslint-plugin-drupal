@@ -6,7 +6,7 @@ module.exports = {
         "check-closure-globals": require("./lib/rules/check-closure-globals")
     },
     rulesConfig: {
-        "jquery-var-name": [2],
-        "check-closure-globals": [2]
+        "jquery-var-name": [1],
+        "check-closure-globals": [1]
     }
 };
